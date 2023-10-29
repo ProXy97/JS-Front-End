@@ -217,3 +217,41 @@
 // }
 
 // solve('Holiday', -12)
+
+
+// Problem 8
+// ----------------------------------------
+
+// function solve(input){
+//     let result;
+
+//     let inputType = typeof(input);
+
+//     if(inputType === 'number'){
+//         result = Math.pow(input, 2) * Math.PI;
+//         console.log(result.toFixed(2));
+//     }
+//     else{
+//         console.log(`We can not calculate the circle area, because we receive a ${inputType}.`)
+//     }
+// }
+
+
+// Problem 9
+// ----------------------------------------
+// function solve()
+// {
+//     for(let i=1; i <= 5; i++)
+//     {
+//         console.log(i);
+//     }
+// }
+
+function solve(numM, numN)
+{
+    for(let i = numM; i >= numN; i--){
+        console.log(i);
+    }
+}
+
+solve(6, 2);
