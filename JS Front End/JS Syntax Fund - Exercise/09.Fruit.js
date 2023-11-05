@@ -7,6 +7,3 @@ function solve(fruitType, weight, pricePerKg)
     console.log(result);
 }
 
-
-solve('orange', 2500, 1.80);
-solve('apple', 1563, 2.35);
