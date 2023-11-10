@@ -1,8 +1,9 @@
 function solve(string, startIndex, count)
 {
-    let result = string.substring(startIndex, count + 1);
+    
+    let result = string.substring(startIndex, );
 
     console.log(result);
 }
 
-solve('SkipWord ', 4, 7)
+solve('SkipWord', 4, 7)
