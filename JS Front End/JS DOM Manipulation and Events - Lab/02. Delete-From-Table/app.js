@@ -1,8 +1,8 @@
 function deleteByEmail() {
     let input = document.querySelector('input[name="email"]');
     let tableRows = Array.from(document.querySelector("tbody").children);
-    let isRemoved = false;
     let result = document.querySelector("#result");
+    let isRemoved = false;
 
 
     for (const row of tableRows) {

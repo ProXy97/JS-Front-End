@@ -4,6 +4,4 @@ function addItem() {
     let li = document.createElement('li');
     li.textContent = input;
     list.appendChild(li);
-    input = '';
-
 }
