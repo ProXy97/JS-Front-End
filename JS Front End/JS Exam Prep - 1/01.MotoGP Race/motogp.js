@@ -58,7 +58,7 @@ function solve(input) {
 
     for (const rider in riders) {
         console.log(rider);
-        console.log(`  Final Position: ${riders[rider].position}`);
+        console.log(`  Final position: ${riders[rider].position}`);
     }
 }
 
