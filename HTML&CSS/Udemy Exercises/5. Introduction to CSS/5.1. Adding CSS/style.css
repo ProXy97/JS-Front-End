@@ -1,0 +1,13 @@
+.style.inline {
+    color: blue;
+}
+
+.inline {
+    color: blue;
+}
+.internal {
+    color: red;
+}
+.external {
+    color: green;
+}

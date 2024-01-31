@@ -1,0 +1,43 @@
+@import url(https://fonts.google.com/specimen/Libre+Baskerville);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+
+img{
+    border: 5px solid white;
+    width: 100%;
+}
+
+#image-div {
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+#text-content 
+{
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 25px;
+    text-align: center;
+}
+
+h1{
+    padding-bottom: 25px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 40px;
+}
+
+p{
+    padding-top: 10px;
+    font-size: 19px;
+}
